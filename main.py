@@ -1,6 +1,6 @@
 import streamlit as st
 
-print("hello, I am Shiney")
+st.write("hello, I am Shiney")
 
 s = st.text_input("Enter your name")
 
