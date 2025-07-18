@@ -1,5 +1,8 @@
 import streamlit as st
-print("hello, i am shiney")
-s=st.text_input("enter your name")
+
+print("hello, I am Shiney")
+
+s = st.text_input("Enter your name")
+
 if s:
-st.write(f"{s}, nice to meet you")
+    st.write(f"{s}, nice to meet you")
